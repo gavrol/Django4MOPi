@@ -14,7 +14,7 @@ urlpatterns = patterns('',
     url(r'^projects$', mopi.views.home,{'template_name': 'projects.html'}),
     url(r'^philosophy$', mopi.views.home,{'template_name': 'faq.html'}),
      url(r'^faq$', mopi.views.home,{'template_name': 'faq.html'}),
-    url(r'^short_CV$', mopi.views.home,{'template_name': 'short_CV.html'}),
+    url(r'^shortCV$', mopi.views.home,{'template_name': 'shortCV.html'}),
     # url(r'^blog/', include('blog.urls')),
 
     #url(r'^admin/', include(admin.site.urls)),

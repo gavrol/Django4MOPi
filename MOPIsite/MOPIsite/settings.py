@@ -50,7 +50,7 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'MOPIsite.urls'
 TEMPLATE_DIRS = (
-    '/Users/olena/Work_and_Research/MOPi/public_html/DjangoMOPi/MOPIsite/templates',
+    '/Users/olena/Work_and_Research/MOPi/Django4MOPi/MOPIsite/templates',
 )
 WSGI_APPLICATION = 'MOPIsite.wsgi.application'
 
